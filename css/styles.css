@@ -751,3 +751,47 @@ body {
   display: inline-flex;
   fill: #000000;
 }
+.footer-form {
+  display: block;
+  width: 570px;
+  height: 86px;
+}
+.form-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--fons-color);
+  margin-bottom: 20px;
+}
+.modal-form {
+  display: block;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+.modal-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.footer-btm {
+  display: inline-block;
+  margin-left: 12px;
+}
+textarea {
+  resize: none;
+}
+.form-fild {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
