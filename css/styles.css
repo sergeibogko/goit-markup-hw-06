@@ -925,3 +925,6 @@ textarea {
   justify-content: center;
   align-items: center;
 }
+.form-icon {
+  fill: #212121;
+}
