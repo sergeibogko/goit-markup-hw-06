@@ -587,18 +587,8 @@
               placeholder="Email"
               class="form-mail"
             />
-            <label class="form-footer-btm">
-              <button type="submit" class="footer-btm">Подписаться</button>
-              <svg
-                class="icon-send"
-                width="24"
-                height="24"
-                target="_blank"
-                rel="noopener norefferrel"
-              >
-                <use xlink:href="./images/sprite.svg#icon send"></use>
-              </svg>
-            </label>
+
+            <button type="submit" class="footer-btm">Подписаться</button>
           </form>
         </div>
       </div>
@@ -608,30 +598,33 @@
         <button class="btm-close" data-modal-close></button>
         <div class="modal-form">
           <form class="modal-form-subscribe">
-            <h3>Оставте свои данные, мы вам перезвоим</h3>
+            <h3 class="modal-title">Оставте свои данные, мы вам перезвоим</h3>
             <div class="form-fild">
-              <label for="name">Имя</label>
-              <input type="name" name="name" id="name" />
+              <label for="name" class="form-fild-label">Имя</label>
+              <input type="name" name="name" id="name" class="form-fild-input" required />
             </div>
             <div class="form-fild">
-              <label for="tel">Телефон</label>
-              <input type="tel" name="tel" id="tel" />
+              <label for="tel" class="form-fild-label">Телефон</label>
+              <input type="tel" name="tel" id="tel" class="form-fild-input" required />
             </div>
             <div class="form-fild">
-              <label for="mail">Почта</label>
-              <input type="email" name="mail" id="mail" />
+              <label for="mail" class="form-fild-label">Почта</label>
+              <input type="email" name="mail" id="mail" class="form-fild-input"/>
             </div>
             <div class="form-fild">
-              <label for="comment">Коментарий</label>
-              <textarea name="comment" id="comment" rows="10"></textarea>
+              <label for="comment" class="form-fild-label">Коментарий</label>
+              <textarea name="comment" id="comment" rows="10" placeholder="Введите текст" class="form-fild-coment" required ></textarea>
             </div>
-            <div>
+            <div class="modal-checkbox">
               <input type="checkbox" name="" id="policy" />
-              <label for="policy"
-                >Соглашаюсь с рассылкой и принимаю Условия договора</label
+              <label for="policy" class="checkbox"></label>
+                <span class="">Соглашаюсь с рассылкой и принимаю</span>
+                <a href="">Условия договора</a></label
               >
             </div>
-            <button type="submit">Отправить</button>
+            <div class="modal-btm">
+            <button type="submit" class="button">Отправить</button>
+            </div>
           </form>
         </div>
       </div>
