@@ -856,9 +856,10 @@ textarea {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-
+  margin-bottom: 10px;
   color: #757575;
 }
+
 .form-fild-coment {
   font-family: Roboto;
   font-style: normal;
@@ -924,7 +925,4 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.form-icon {
-  fill: #212121;
 }
