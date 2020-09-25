@@ -814,8 +814,7 @@ body {
   display: inline-flex;
   fill: #000000;
 }
-.btm-close:hover,
-:focus {
+.btm-icon:focus {
   fill: #2196f3;
 }
 .modal-form {
@@ -849,6 +848,7 @@ textarea {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
+  position: relative;
 }
 .form-fild-label {
   font-style: normal;
@@ -859,7 +859,14 @@ textarea {
   margin-bottom: 10px;
   color: #757575;
 }
-
+.form-fild .form-fild-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  width: 18px;
+  height: 18px;
+  background-color: red;
+}
 .form-fild-coment {
   font-family: Roboto;
   font-style: normal;
@@ -874,12 +881,16 @@ textarea {
 .form-fild-input {
   width: 448px;
   height: 40px;
-
+  padding-left: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
 
   border-radius: 4px;
   outline: transparent;
 }
+.form-fild-input:focus {
+  border: 1px solid #2196f3;
+}
+
 .form-fild-coment {
   display: flex;
   flex-direction: column;
@@ -920,6 +931,9 @@ textarea {
 }
 .checkbox {
   margin-right: 9px;
+}
+.form-polisy {
+  margin-right: 5px;
 }
 .modal-btm {
   display: flex;
