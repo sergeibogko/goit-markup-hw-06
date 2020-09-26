@@ -803,18 +803,18 @@ body {
   right: 15px;
   width: 30px;
   height: 30px;
-  background-image: url(../images/close.svg);
+
   background-repeat: no-repeat;
   background-size: contain;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   outline: transparent;
 }
-.btm-icon {
+.btm-close {
   display: inline-flex;
   fill: #000000;
 }
-.btm-icon:focus {
+.btm-close:focus {
   fill: #2196f3;
 }
 .modal-form {
@@ -862,7 +862,8 @@ textarea {
 .form-fild .form-fild-icon {
   position: absolute;
   top: 50%;
-  left: 10px;
+  left: 3%;
+
   width: 18px;
   height: 18px;
   background-color: red;
