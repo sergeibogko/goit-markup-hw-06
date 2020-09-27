@@ -103,14 +103,10 @@
   <symbol viewBox="0 0 10 16" xmlns="http://www.w3.org/2000/svg" id="fone">
     <path d="M8.5 0h-7C.673 0 0 .673 0 1.5v13c0 .827.673 1.5 1.5 1.5h7c.827 0 1.5-.673 1.5-1.5v-13C10 .673 9.327 0 8.5 0zm-7 1h7a.5.5 0 0 1 .5.5V12H1V1.5a.5.5 0 0 1 .5-.5zm7 14h-7a.5.5 0 0 1-.5-.5V13h8v1.5a.5.5 0 0 1-.5.5z"></path>
   </symbol>
-</svg>
-<svg width="0" height="0" class="hidden">
-  <symbol viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" id="close">
-    <path d="M15 4.108L13.892 3 9.5 7.392 5.108 3 4 4.108 8.392 8.5 4 12.892 5.108 14 9.5 9.608 13.892 14 15 12.892 10.608 8.5 15 4.108z" fill="#000"></path>
+  <symbol viewBox="0 0 11 11" xmlns="http://www.w3.org/2000/svg" id="close-black">
+    <path d="M11 1.108L9.892 0 5.5 4.392 1.108 0 0 1.108 4.392 5.5 0 9.892 1.108 11 5.5 6.608 9.892 11 11 9.892 6.608 5.5 11 1.108z"></path>
   </symbol>
-</svg>
-<svg width="0" height="0" class="hidden">
-  <symbol viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" id="icon send (1)">
-    <path d="M24 0L0 13.5l7.67 2.84L19.5 5.25l-8.998 12.14.007.002-.009-.002V24l4.301-5.018L20.251 21 24 0z" fill="#fff"></path>
+  <symbol viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="icon send (1)">
+    <path d="M24 0L0 13.5l7.67 2.84L19.5 5.25l-8.998 12.14.007.002-.009-.002V24l4.301-5.018L20.251 21 24 0z"></path>
   </symbol>
 </svg>
