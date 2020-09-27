@@ -215,6 +215,8 @@ body {
   align-items: center;
   letter-spacing: 0.06em;
   font-family: inherit;
+  border: transparent;
+  outline: transparent;
 }
 
 /* Section */
